@@ -99,7 +99,7 @@ public class FontDialog extends JDialog {
 		headerPanel.add(header);
 		this.getContentPane().add(headerPanel, BorderLayout.NORTH);
 
-		areaPanel.setBorder(BorderFactory.createEtchedBorder(Color.white, new Color(255, 0, 0)));
+		areaPanel.setBorder(BorderFactory.createEtchedBorder(Color.white, new Color(142, 142, 142)));
 		fontFamilyCB.setMaximumRowCount(9);
 		fontFamilyCB.setBorder(new TitledBorder(BorderFactory.createEmptyBorder(), Local.getString("Font family")));
 		fontFamilyCB.setPreferredSize(new Dimension(200, 50));
